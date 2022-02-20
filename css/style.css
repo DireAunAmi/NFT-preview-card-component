@@ -5,7 +5,125 @@
   margin: 0;
 }
 
-body {
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
   background-color: #0d192b;
+  font-family: 'Outfit', sans-serif;
+  color: white;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card {
+  width: 45vw;
+  border-radius: 10px;
+  background-color: #14253d;
+  padding: 20px 20px;
+}
+
+.card__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__title {
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.card__text {
+  color: #00fff7;
+  margin: 15px 0;
+}
+
+.card__secondBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #2f415b;
+  margin-bottom: 5px;
+}
+
+.card__ethBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__actualPrice {
+  padding-left: 5px;
+  font-weight: normal;
+}
+
+.card__timerBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__timerImg {
+  padding-right: 5px;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+}
+
+.card__authorAvatar {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #2f415b;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card__authorOfCard {
+  font-weight: lighter;
+}
+
+.card__spanColor {
+  color: #8bacda;
+  font-weight: lighter;
 }
 /*# sourceMappingURL=style.css.map */

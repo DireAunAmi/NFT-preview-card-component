@@ -5,7 +5,79 @@
 	margin: 0;
 }
 
-body {
+html {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
 	background-color: $mainBG;
-    
+	font-family: 'Outfit', sans-serif;
+	color: $white;
+}
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	width: 45vw;
+	border-radius: 10px;
+	background-color: $cardBG;
+	padding: 20px 20px;
+	&__img {
+		width: 100%;
+		border-radius: 10px;
+	}
+	&__title {
+		margin-top: 15px;
+		font-weight: 600;
+	}
+	&__text {
+		color: $cyan;
+		margin: 15px 0;
+	}
+	&__secondBox {
+		display: flex;
+		justify-content: space-between;
+		padding-bottom: 15px;
+		border-bottom: 1px solid $line;
+		margin-bottom: 5px;
+	}
+	&__ethBox {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__actualPrice {
+		padding-left: 5px;
+		font-weight: normal;
+	}
+	&__timerBox {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	&__timerImg {
+		padding-right: 5px;
+	}
+	&__footer {
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+	}
+	&__authorAvatar {
+		width: 30px;
+		height: 30px;
+		border: 1px solid $line;
+		border-radius: 50%;
+		margin-right: 15px;
+	}
+	&__authorOfCard {
+		font-weight: lighter;
+	}
+	&__spanColor {
+		color: $softBlue;
+		font-weight: lighter;
+	}
 }
