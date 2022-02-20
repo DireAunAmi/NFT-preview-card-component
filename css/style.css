@@ -34,7 +34,8 @@ html {
 }
 
 .card {
-  width: 45vw;
+  height: 100%;
+  width: 45%;
   border-radius: 10px;
   background-color: #14253d;
   padding: 20px 20px;
@@ -96,7 +97,7 @@ html {
           align-items: center;
 }
 
-.card__timerImg {
+.card__timerIcon {
   padding-right: 5px;
 }
 
@@ -125,5 +126,10 @@ html {
 .card__spanColor {
   color: #8bacda;
   font-weight: lighter;
+}
+
+.attribution {
+  text-align: center;
+  margin-top: 50px;
 }
 /*# sourceMappingURL=style.css.map */
